@@ -43,10 +43,6 @@ header nav ul{
     list-style-type: none;
 }
 
-header nav ul li{
-    float: left;
-}
-
 /* HEADER-JUMBO */
 header .jumbo{
     /* debug */
