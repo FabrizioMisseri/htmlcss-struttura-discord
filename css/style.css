@@ -118,11 +118,27 @@ footer{
 }
 
 footer section{
+    padding-top: 1em;
+    padding-bottom:3em;
     /* debug */
-    height: 380px;
     border-bottom: 2px solid white;
 }
 
+footer section div.item{
+    width: 15%;
+    /* debug */
+    height: 350px;
+    background-color: aquamarine;
+    border-style: dashed;
+}
+
+footer section div.item:first-child{
+    flex-grow: 1;
+    /* debug */
+    background-color: pink;
+}
+
+    /* aside */
 footer aside{
     /* debug */
     height: 85px;
