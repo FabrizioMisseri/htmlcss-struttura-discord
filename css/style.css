@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+* a{
+    text-decoration: none;
+}
+
 /* COMMON */
 .flex-box{
     display: flex;
@@ -21,7 +25,7 @@
 
 /* HEADER */
 
-/* HEADER - NAV */
+    /* HEADER - NAV */
 header nav{
     height: 85px;
     /* debug */
@@ -43,7 +47,7 @@ header nav ul{
     list-style-type: none;
 }
 
-/* HEADER-JUMBO */
+    /* HEADER-JUMBO */
 header .jumbo{
     /* debug */
     height: 380px;
@@ -69,6 +73,18 @@ main section{
 
 main section:nth-child(even){
     background-color: lightgray;
+}
+
+main section div.item{
+    width: 33%;
+    background-color: pink;
+    border-style: dashed;
+    height: 350px;
+}
+
+main section div.item:first-child{
+    flex-grow: 1;
+    background-color: blue;
 }
 
 
