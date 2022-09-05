@@ -5,7 +5,57 @@
     box-sizing: border-box;
 }
 
+
 /* COMON */
-.container-flex{
+.flex-box{
     display: flex;
+}
+
+.container{
+    width: 75%;
+}
+
+
+/* HEADER */
+
+header nav{
+    height: 85px;
+    /* debug */
+    background-color: lightblue;
+}
+
+header .jumbo{
+    /* debug */
+    height: 380px;
+    background-color: blue;
+}
+
+
+/* MAIN */
+
+main section{
+    /* debug */
+    height: 430px;
+}
+
+main section:nth-child(even){
+    background-color: lightgray;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(54, 53, 53);
+}
+
+footer section{
+    /* debug */
+    height: 380px;
+    border-bottom: 2px solid white;
+}
+
+footer aside{
+    /* debug */
+    height: 85px;
 }
