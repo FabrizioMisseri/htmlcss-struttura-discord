@@ -119,7 +119,7 @@ footer{
 
 footer section{
     padding-top: 1em;
-    padding-bottom:3em;
+    padding-bottom:2em;
     /* debug */
     border-bottom: 2px solid white;
 }
@@ -140,6 +140,25 @@ footer section div.item:first-child{
 
     /* aside */
 footer aside{
+    padding-top: 2em;
     /* debug */
-    height: 85px;
+    height: 100px;
+}
+
+footer aside div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0;
+    /* debug */
+    background-color: yellow;
+    border-style: dashed;
+    height: 100%;
+}
+
+footer div.container span{
+    /* debug */
+    background-color: white;
+    border: dashed;
+    padding: .3em;
 }
