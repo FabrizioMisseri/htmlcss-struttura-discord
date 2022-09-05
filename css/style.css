@@ -5,30 +5,63 @@
     box-sizing: border-box;
 }
 
-
-/* COMON */
+/* COMMON */
 .flex-box{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
     width: 75%;
+    padding: .25em;
 }
+
 
 
 /* HEADER */
 
+/* HEADER - NAV */
 header nav{
     height: 85px;
     /* debug */
     background-color: lightblue;
 }
 
+header span{
+    /* debug */
+    background-color: orange;
+    border-style: dashed;
+    width: 20%;
+}
+
+header nav #menù{
+    flex-grow: 1;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+/* HEADER-JUMBO */
 header .jumbo{
     /* debug */
     height: 380px;
     background-color: blue;
 }
+
+header .jumbo div{
+    width: 60%;
+    /* debug */
+    height:300px;
+    border-style: dashed;
+    background-color: rgb(143, 25, 113);
+}
+
 
 
 /* MAIN */
@@ -41,6 +74,7 @@ main section{
 main section:nth-child(even){
     background-color: lightgray;
 }
+
 
 
 /* FOOTER */
