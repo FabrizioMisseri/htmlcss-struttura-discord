@@ -75,8 +75,11 @@ main section:nth-child(even){
     background-color: lightgray;
 }
 
+
+    /* PRIME TRE SEZIONI */
 main section div.item{
     width: 33%;
+    /* debug */
     background-color: pink;
     border-style: dashed;
     height: 350px;
@@ -84,7 +87,26 @@ main section div.item{
 
 main section div.item:first-child{
     flex-grow: 1;
+    /* debug */
     background-color: blue;
+}
+
+.reverse{
+    order: -1;
+}
+
+    /* SEZIONE SPECIALE */
+main section:last-child{
+    /* debug */
+    height: 600px;
+}
+
+#item-speciale{
+    width: 100%;
+    /* debug */
+    background-color: green;
+    height: 500px;
+    border-style: dashed;
 }
 
 
